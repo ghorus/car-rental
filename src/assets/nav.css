@@ -1,0 +1,64 @@
+.car-logo {
+    width: 80px;
+}
+.links {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 80px 80px 150px 130px 120px 80px;
+   
+}
+.links,.sign-ups,.sign-up-btn {
+    font-weight: bold;
+}
+.logo-and-text {
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    margin:0px 5px;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.navigation {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+:root {
+    --btn-width:120px;
+}
+.sign-up-btn {
+    background-color: rgb(255, 94, 0);
+    border: none;
+    border-radius: 3px;
+    box-shadow: -3px 3px 10px rgb(163, 163, 163);
+    color:white;
+    height: 45px;
+    width: var(--btn-width);
+}
+.sign-ups {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 80px var(--btn-width);;
+    margin:10px;
+}
+.threebars {
+    display:none;
+    width: 35px;
+}
+/*pointers*/
+.navigation a,.navigation button {
+    cursor: pointer;
+}
+@media screen and (max-width:1040px) {
+    .links, .sign-ups {
+        display: none;
+    }
+    .threebars {
+        display: block;
+        margin:0px 30px 0px 0px;
+    }
+}
