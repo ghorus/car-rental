@@ -15,62 +15,62 @@ function Booking(){
                 </div>
             </div>
             <div className="booking-container">
-            <div className="book-times">
-                <p className="booking-title">Book a car</p>
-                <div className="book-times-inputs">
-                <div className="book-times-input">
-                    <p>🚗 Select Your Car Type <span className="asterisk">*</span></p>
-                    <select className="car-types-options">
-                    <option value="" disabled selected>Select your option</option>
-                    <option>Volvo</option>
-                    <option>Saab</option>
-                    <option>Mercedes</option>
-                    <option>Audi</option>
-                    </select>
+                <div className="book-times">
+                    <p className="booking-title">Book a car</p>
+                    <div className="book-times-inputs">
+                    <div className="book-times-input">
+                        <p>🚗 Select Your Car Type <span className="asterisk">*</span></p>
+                        <select className="car-types-options">
+                        <option value="" disabled selected>Select your option</option>
+                        <option>Volvo</option>
+                        <option>Saab</option>
+                        <option>Mercedes</option>
+                        <option>Audi</option>
+                        </select>
+                    </div>
+                    <div className="book-times-input">
+                        <p>📍 Pick up <span className="asterisk">*</span></p>
+                        <select className="car-types-options">
+                        <option value="" disabled selected>Select your option</option>
+                        <option>Los Angeles</option>
+                        <option>Ontario</option>
+                        <option>San Diego</option>
+                        <option>San Francisco</option>
+                        </select>
+                    </div>
+                    <div className="book-times-input">
+                        <p>📍 Drop-off <span className="asterisk">*</span></p>
+                        <select className="car-types-options">
+                        <option value="" disabled selected>Select your option</option>
+                        <option>Los Angeles</option>
+                        <option>Ontario</option>
+                        <option>San Diego</option>
+                        <option>San Francisco</option>
+                        </select>
+                    </div>
+                    <div className="book-times-input">
+                        <p>📅 Pick Up <span className="asterisk">*</span></p>
+                        <select className="car-types-options">
+                        <option value="" disabled selected>Select your option</option>
+                        <option>Los Angeles</option>
+                        <option>Ontario</option>
+                        <option>San Diego</option>
+                        <option>San Francisco</option>
+                        </select>
+                    </div>
+                    <div className="book-times-input">
+                        <p>📅 Drop-off <span className="asterisk">*</span></p>
+                        <select className="car-types-options">
+                        <option value="" disabled selected>Select your option</option>
+                        <option>Los Angeles</option>
+                        <option>Ontario</option>
+                        <option>San Diego</option>
+                        <option>San Francisco</option>
+                        </select>
+                    </div>
+                    <button className="search-btn">Search</button>
+                    </div>
                 </div>
-                <div className="book-times-input">
-                    <p>📍 Pick up <span className="asterisk">*</span></p>
-                    <select className="car-types-options">
-                    <option value="" disabled selected>Select your option</option>
-                    <option>Los Angeles</option>
-                    <option>Ontario</option>
-                    <option>San Diego</option>
-                    <option>San Francisco</option>
-                    </select>
-                </div>
-                <div className="book-times-input">
-                    <p>📍 Drop-off <span className="asterisk">*</span></p>
-                    <select className="car-types-options">
-                    <option value="" disabled selected>Select your option</option>
-                    <option>Los Angeles</option>
-                    <option>Ontario</option>
-                    <option>San Diego</option>
-                    <option>San Francisco</option>
-                    </select>
-                </div>
-                <div className="book-times-input">
-                    <p>📅 Pick Up <span className="asterisk">*</span></p>
-                    <select className="car-types-options">
-                    <option value="" disabled selected>Select your option</option>
-                    <option>Los Angeles</option>
-                    <option>Ontario</option>
-                    <option>San Diego</option>
-                    <option>San Francisco</option>
-                    </select>
-                </div>
-                <div className="book-times-input">
-                    <p>📅 Drop-off <span className="asterisk">*</span></p>
-                    <select className="car-types-options">
-                    <option value="" disabled selected>Select your option</option>
-                    <option>Los Angeles</option>
-                    <option>Ontario</option>
-                    <option>San Diego</option>
-                    <option>San Francisco</option>
-                    </select>
-                </div>
-                <button className="search-btn">Search</button>
-                </div>
-            </div>
             </div>
         </>
     )
